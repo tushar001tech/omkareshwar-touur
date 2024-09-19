@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omkareshwar - The Sacred Land of Lord Shiva</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f5f0e1;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #232323;
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+            background-image: url('https://example.com/shiva-background.jpg'); /* Add a background image related to Lord Shiva */
+            background-size: cover;
+            background-position: center;
+        }
+        header h1 {
+            font-family: 'Tangerine', cursive;
+            font-size: 3.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #6b4226;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #3d2b1f;
+            border-radius: 5px;
+        }
+        section {
+            padding: 30px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        h2 {
+            color: #6b4226;
+            border-bottom: 2px solid #6b4226;
+            padding-bottom: 10px;
+        }
+        .places, .hotels {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .place, .hotel {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(33.333% - 40px);
+            border: 1px solid #6b4226;
+        }
+        .place h3, .hotel h3 {
+            margin: 0 0 10px;
+            color: #6b4226;
+            font-family: 'Tangerine', cursive;
+            font-size: 2em;
+        }
+        .place p, .hotel p {
+            font-size: 16px;
+            font-family: 'Georgia', serif;
+        }
+        footer {
+            background-color: #232323;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .hotel a {
+            text-decoration: none;
+            color: white;
+            background-color: #ff9800;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .hotel a:hover {
+            background-color: #e68900;
+        }
+        .mantra {
+            text-align: center;
+            font-style: italic;
+            color: #6b4226;
+            margin: 20px 0;
+            font-size: 1.5em;
+        }
+        .contact {
+            text-align: center;
+            font-size: 18px;
+            padding: 20px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Omkareshwar - Sacred Land of Lord Shiva</h1>
+        <p>Explore the divine Jyotirlinga and spiritual temples of Omkareshwar</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#places">Places to Visit</a>
+        <a href="#hotels">Hotels</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Omkareshwar</h2>
+        <p>Omkareshwar is a divine place on the Narmada River, home to one of the 12 Jyotirlingas of Lord Shiva. It’s a place of deep spiritual significance, attracting pilgrims and visitors to its serene temples and holy ghats.</p>
+    </section>
+
+    <section id="places">
+        <h2>Places to Visit in Omkareshwar</h2>
+        <div class="places">
+            <div class="place">
+                <h3>Omkareshwar Temple</h3>
+                <img src="https://static.toiimg.com/photo/70433543.cms" alt="Omkareshwar Temple">
+                <p>This sacred Jyotirlinga shrine dedicated to Lord Shiva is the heart of Omkareshwar. Devotees from all over the world visit to experience its spiritual energy and stunning location on an island in the Narmada River.</p>
+            </div>
+            <div class="place">
+                <h3>Mamleshwar Temple</h3>
+                <img src="data:image/jpeg;base64,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" alt="Mamleshwar Temple"> <!-- Updated Path -->
+                <p>An ancient temple known for its unique architecture and divine significance, it is considered as important as the Omkareshwar temple across the river.</p>
+            </div>
+            <div class="place">
+                <h3>Omkaeshwar Dam</h3>
+                <img src="https://mpkonnect.com/wp-content/uploads/2022/09/Omkareshwar-Dam-Dainik-Bhaskar-scaled.jpg"> <!-- Updated Path -->
+                <p>The Omkareshwar Dam is a gravity dam on the Narmada River just upstream of Mandhata in Khandwa district, Madhya Pradesh, India.</p>
+            </div>
+        <div class="place">
+                <h3>Kedareshwar Temple</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQjVEkTsnt3P-8eEpbsNX3-oGSM2qdItRf7w&s" alt="Kedareshwar Temple"> <!-- Updated Path -->
+                <p>A peaceful temple situated on the banks of the river, perfect for devotees seeking tranquility and meditation by the holy waters.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="hotels">
+        <h2>Recommended Hotels in Omkareshwar</h2>
+        <div class="hotels">
+            <div class="hotel">
+                <h3>Purnima Hotel</h3>
+                <p>Located near the main temple, Purnima Hotel offers comfortable rooms and excellent service for pilgrims and tourists alike.</p>
+                <a href="https://www.makemytrip.com/hotels/purnima_hotel-details-omkareshwar.html?srsltid=AfmBOopwcbLe2DHIUMb_3wtcgDMhVp7Pn-eR_5RYuwzcwI4cdTL6oHcZ" target="_blank">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="mantra">
+        <p>"Om Namah Shivaya" - Seek the blessings of Lord Shiva</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, please contact us at:</p>
+        <p><strong>Phone:</strong> 9516926822</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Omkareshwar Tours. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
